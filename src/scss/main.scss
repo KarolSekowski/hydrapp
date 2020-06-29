@@ -1,13 +1,33 @@
 @import "~normalize.css";
 
 @import "_variables";
-@import "modules/hello.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 
 body {
-  background: $wtf;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+
+position: relative;
+width: 375px;
+height: 812px;
+background: #3767AD;
+}
+
+.body_title{
+position: absolute;
+width: 275px;
+height: 48px;
+left: 50px;
+top: 87px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 55px;
+line-height: 64px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
 }
