@@ -7,17 +7,24 @@
 
 body {
 
-position: relative;
-width: 375px;
-height: 812px;
-background: #3767AD;
+  display: flex;
+  flex-direction: column;
+  padding: 87px 47px;
+  
+  position: relative;
+  width: 374px;
+  height: 614px;
+  
+  background: #3767AD;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .body_title{
-position: absolute;
+
+position: static;
 width: 275px;
 height: 48px;
-left: 50px;
+left: 49.5px;
 top: 87px;
 
 font-family: 'Roboto', sans-serif;
@@ -30,4 +37,78 @@ align-items: center;
 text-align: center;
 
 color: #FFFFFF;
+
+
+flex: none;
+order: 0;
+align-self: center;
+margin: 0px 14px;
+
+}
+.img_water{
+  position: absolute;
+left: 20.88%;
+right: 21.62%;
+top: 22.47%;
+bottom: 6.25%;
+
+background: #2196F3;
+}
+.plus_button{
+  position: static;
+  width: 216px;
+  height: 47px;
+  left: 79px;
+  top: 443px;
+  
+  
+  /* Inside Auto Layout */
+  
+  flex: none;
+  order: 2;
+  align-self: center;
+  margin: 0px 14px;
+}
+.minus_button{
+  position: static;
+width: 184px;
+height: 23px;
+left: 95px;
+top: 504px;
+
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F5E5E7;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+align-self: center;
+margin: 0px 14px;
+}
+
+.img_water_glass{
+  
+position: static;
+width: 280px;
+height: 280px;
+left: 47px;
+top: 149px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: center;
+margin: 0px 14px;
 }
