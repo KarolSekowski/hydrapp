@@ -7,6 +7,12 @@
     line-height: 64px;
     margin: 0 0 64px;
     text-align: center;
+    transform: scale(1,1);
+    &:hover{
+        transform: scale(1.05,1.07);
+    }
+ 
+   
  }
 
 }
