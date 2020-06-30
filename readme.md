@@ -1,18 +1,12 @@
 ![cover](https://github.com/KarolSekowski/hydrapp/blob/master/src/assets/img/HYDRAPP.png)
 
-# WTF Webpack Starter Kit 
+# Simple aplication for counting daily water glasses
 
-Simple toolkit for your static websites development.
+Count your daily drinked water glasses and look for history of it.
 
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
+This is aplication with PWA enabled so visit [THIS LINK](https://karolsekowski.github.io/hydrapp/) on your pc or mobile phone and add it for desktop. 
+## Have Fun!
+by Karol Sękowski
 
